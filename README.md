@@ -1,20 +1,20 @@
-### forecasting-credit-defaults
+### credit-defaults-forecasting
 One of the most simple and popular consumer finance products is an Unsecured Personal Loan. Competition in the market is strong and margins are slim so the product has to be well prepared. To be able to offer the right price for the customer The Lender has to know what is the cost of lending and a big part of that cost comes from non-performing loans. The purpose of this notebook is to build a contemporary credit scoring model to forecast credit defaults for unsecured lending, by employing machine learning techniques.
 
-**Quick Start:** [View](http://nbviewer.ipython.org/urls/raw.github.com/Mieczmik/forecasting-credit-defaults/main/forecasting-credit-defaults.ipynb) a static version of the notebook in the comfort of your own web browser.
+**Quick Start:** [View](https://htmlpreview.github.io/?https://github.com/Mieczmik/credit-defaults-forecasting/blob/main/credit-defaults-forecasting.html) a static version of the notebook in the comfort of your own web browser.
 
 ### Installation:
 
 To run this notebook interactively:
 
-1. Download this repository in a zip file by clicking on this [link](https://github.com/Mieczmik/forecasting-credit-defaults/archive/master.zip) or execute this from the terminal:
-`git clone https://github.com/Mieczmik/forecasting-credit-defaults.git`
+1. Download this repository in a zip file by clicking on this [link](https://github.com/Mieczmik/credit-defaults-forecasting/archive/master.zip) or execute this from the terminal:
+`git clone https://github.com/Mieczmik/credit-defaults-forecasting.git`
 2. Install [virtualenv](http://virtualenv.readthedocs.org/en/latest/installation.html).
 3. Navigate to the directory where you unzipped or cloned the repo and create a virtual environment with `virtualenv env`.
 4. Activate the environment with `source env/bin/activate`
 5. Install the required dependencies with `pip install -r requirements.txt`.
 6. Execute `ipython notebook` from the command line or terminal.
-7. Click on `forecasting-credit-defaults.ipynb` on the IPython Notebook dashboard and enjoy!
+7. Click on `credit-defaults-forecasting.ipynb` on the IPython Notebook dashboard and enjoy!
 8. When you're done deactivate the virtual environment with `deactivate`.
 
 #### This Notebook will show basic examples of:
