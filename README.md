@@ -1,8 +1,6 @@
 # credit-defaults-forecasting
 One of the most simple and popular consumer finance products is an Unsecured Personal Loan. Competition in the market is strong and margins are slim so the product has to be well prepared. To be able to offer the right price for the customer The Lender has to know what is the cost of lending and a big part of that cost comes from non-performing loans. The purpose of this notebook is to build a contemporary credit scoring model to forecast credit defaults for unsecured lending, by employing machine learning techniques.
 
-**Quick Start:** [View](https://htmlpreview.github.io/?https://github.com/Mieczmik/credit-defaults-forecasting/blob/main/credit-defaults-forecasting.html) a static version of the notebook in the comfort of your own web browser.
-
 ## Installation:
 
 To run this notebook interactively:
@@ -50,3 +48,8 @@ Griding solutions with cross-validation (**Stratified k-fold**) together with **
 * Feature importance
 * Plotting results
 * Export results
+
+### Conclusions
+* The solution work with a pretty good total accuracy of 88% and f1-score of 76% for Adaboost Classifier,
+* Recall-score, which represents the ratio of people expressed as a percentage that the algorithm predicted would default to the number of people who defaulted was 76%,
+* Trees algorithms such as AdaBoost and xgboost achieved the best results. One reason is the lower sensitivity to outliers.
